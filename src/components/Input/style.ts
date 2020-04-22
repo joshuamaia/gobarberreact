@@ -30,12 +30,13 @@ export const Container = styled.div<ContainerProps>`
     props.isFilled &&
     css`
       color: #ff9000;
+      background: #232129;
     `}
 
   input {
     flex: 1;
     border: 0;
-    background: transparent;
+    background: #232129;
     color: #f4ede8;
     &::placeholder {
       color: #666360;
