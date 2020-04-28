@@ -16,7 +16,7 @@ Dentre muitas outras tecnologias.
 
 # Para rodar o projeto executar
 
-### yarn start
+* yarn start
 
 ## Tela de login da aplicação
 
