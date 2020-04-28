@@ -4,13 +4,14 @@
 
 # Tecnologias utilizadas
 
-* React
-* Axios
-* TypeScript
-* Yup
-* styled-components
-* @unforme/core
-* @unform/web
+- React
+- Axios
+- TypeScript
+- Yup
+- styled-components
+- @unforme/core
+- @unform/web
 
 Dentre muitas outras tecnologias.
 
+![Alt text](./src/assets/logingobarber.png 'Title')
