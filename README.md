@@ -14,4 +14,10 @@
 
 Dentre muitas outras tecnologias.
 
+## Tela de login da aplicação
+
 ![Alt text](./src/assets/logingobarber.png 'Title')
+
+## Tela de cadastro de usuário
+
+![Alt text](./src/assets/cadastrogobarber.png 'Title')
