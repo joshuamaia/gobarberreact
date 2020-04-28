@@ -14,6 +14,10 @@
 
 Dentre muitas outras tecnologias.
 
+# Para rodar o projeto executar
+
+### yarn start
+
 ## Tela de login da aplicação
 
 ![Alt text](./src/assets/logingobarber.png 'Title')
