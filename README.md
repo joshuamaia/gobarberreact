@@ -14,6 +14,10 @@
 
 Dentre muitas outras tecnologias.
 
+# Para instalar as depedências executar
+
+* yarn
+
 # Para rodar o projeto executar
 
 * yarn start
