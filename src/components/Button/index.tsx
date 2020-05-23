@@ -1,17 +1,20 @@
 import React, { ButtonHTMLAttributes } from 'react';
 
-import Spinner from '../Spinner';
-
 import { Container } from './styles';
 
-interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
+type ButtonProps = ButtonHTMLAttributes<HTMLButtonElement> & {
   loading?: boolean;
-}
+};
 
-const Button: React.FC<ButtonProps> = ({ loading, children, ...rest }) => {
+const Button: React.FC<ButtonProps> = ({ children, loading, ...rest }) => {
   return (
-    <Container type="button" {...rest}>
-      {loading ? <Spinner /> : children}
+    <Container
+      disabled={loading}
+      isLoading={Number(loading)}
+      type="button"
+      {...rest}
+    >
+      {loading ? 'Carregando...' : children}
     </Container>
   );
 };
