@@ -64,7 +64,7 @@ export const HeaderProfile = styled.div`
 
 export const Content = styled.main`
   max-width: 1120px;
-  margin: 40px auto;
+  margin: 64px auto;
   display: flex;
 `;
 
